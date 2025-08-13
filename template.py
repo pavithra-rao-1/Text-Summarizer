@@ -4,7 +4,7 @@ import logging
 
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]: %(message)s:')
 
-project_name = 'TextSummarizer'
+project_name = 'textSummarizer'
 
 list_of_files = [
     '.github/workflows/.gitkeep',
@@ -21,7 +21,7 @@ list_of_files = [
     'config/config.yaml',
     'params.yaml',
     'appy.py',
-    'man.py',
+    'main.py',
     'Dockerfile',
     'requirements.txt',
     'setup.py',
