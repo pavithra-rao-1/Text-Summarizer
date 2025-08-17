@@ -1,3 +1,6 @@
-import accelerate
-print("Accelerate is imported from:", accelerate.__file__)
-print("Accelerate version:", accelerate.__version__)
+import torch
+print("PyTorch CUDA available?", torch.cuda.is_available())
+if torch.cuda.is_available():
+    print("GPU Name:", torch.cuda.get_device_name(0))
+else:
+    print("No GPU detected!")
